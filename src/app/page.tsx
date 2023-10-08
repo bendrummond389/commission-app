@@ -1,6 +1,5 @@
 'use client';
 import { useCallback, useState } from 'react';
-import 'tailwindcss/tailwind.css'; // Import Tailwind CSS (assuming it's built and configured)
 
 const lagrangePoly = (x: number): number => {
   return (x * (22000 - x)) / 100000;
