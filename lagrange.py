@@ -1,6 +1,6 @@
 import sympy as sp
 
-points = [(0, 0), (2000, 400), (10000, 1200), (20000, 1300)]
+points = [(0, 0), (2000, 400), (10000, 1200)]
 
 # Define the variable
 x = sp.symbols('x')

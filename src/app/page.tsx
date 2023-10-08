@@ -3,7 +3,7 @@ import { useCallback, useState } from 'react';
 import 'tailwindcss/tailwind.css'; // Import Tailwind CSS (assuming it's built and configured)
 
 const lagrangePoly = (x: number): number => {
-  return (Math.pow(x, 3) - 52000 * Math.pow(x, 2) + 900000000 * x) / 4000000000;
+  return (x * (22000 - x)) / 100000;
 };
 
 const calculateCommission = (saleAmount: number): number => {
@@ -15,7 +15,7 @@ const calculateCommission = (saleAmount: number): number => {
 };
 
 export default function Home() {
-  const [value, setValue] = useState('')
+  const [value, setValue] = useState('');
 
   const handleChange = useCallback(
     (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -51,4 +51,3 @@ export default function Home() {
     </div>
   );
 }
-
