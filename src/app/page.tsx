@@ -44,7 +44,7 @@ export default function Home() {
   );
 
   return (
-    <div className="flex flex-row items-start justify-center min-h-screen bg-gray-800 p-10">
+    <div className="flex flex-row items-start justify-center min-h-screen bg-gray-800 p-10 h-screen">
       <div className="bg-white rounded-lg shadow-lg text-black w-1/3 p-10 m-10">
         <h1 className="text-3xl font-semibold mb-6 text-black">
           Commission Calculator
